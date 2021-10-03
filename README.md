@@ -4,7 +4,11 @@ Front-End Angular Back-end Lua
 On this repo you can find only the front end part.
 
 Examples: 
-[Screenshot](src/assets/images/Screenshot1.png)
+![Screenshot](src/assets/images/Screenshot1.png)
+![Screenshot2](src/assets/images/Screenshot2.png)
+
+[![video](src/assets/images/Screenshot1.png)](https://streamable.com/hhyaid)
+
 
 # Feature list:
 - Open source Lua back-end /w comments to improve readability
