@@ -7,6 +7,7 @@ Examples:
 ![Screenshot](src/assets/images/Screenshot1.png)
 ![Screenshot2](src/assets/images/Screenshot2.png)
 
+Video
 [![video](src/assets/images/Screenshot1.png)](https://streamable.com/hhyaid)
 
 
