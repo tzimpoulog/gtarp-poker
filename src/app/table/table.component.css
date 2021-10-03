@@ -1,0 +1,129 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background: transparent !important;
+}
+
+.container-position {
+  width: 800px;
+  height: 100vh;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  border-radius: 10px;
+  background: url("/assets/images/table2.png") no-repeat center center;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+
+.player-0-wrapper {
+  width: 190px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 100px;
+}
+
+.player-1-wrapper {
+  width: 190px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 74px;
+  margin: auto;
+  right: 0;
+  left: 0;
+}
+
+.player-2-wrapper {
+  width: 190px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 100px;
+  margin: auto;
+  right: 0;
+}
+
+.player-3-wrapper {
+  width: 190px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 100px;
+  margin: auto;
+  right: 0;
+}
+
+.player-4-wrapper {
+  width: 190px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 50px;
+  margin: auto;
+  right: 0;
+  left: 0;
+}
+
+.player-5-wrapper {
+  background: rgba(80, 76, 76, 0.911);
+  width: 190px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 100px;
+  margin: auto;
+  left: 0;
+}
+
+.actions {
+  width: 375px;
+  position: absolute;
+  bottom: 180px;
+  margin: auto;
+  right: 0;
+  left: 0;
+}
+
+.start-button {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+
+.player-action {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.game-pot {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-exit {
+  position: absolute;
+  right: 0;
+}

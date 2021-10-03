@@ -1,0 +1,8 @@
+{
+  "/api/": {
+    "target": "​http://lab.wappier.com/user/",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}

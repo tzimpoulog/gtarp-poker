@@ -1,0 +1,31 @@
+<div class="container-position">
+  <div class="btn btn-success start-button" (click)="startGame()">
+    Start Game
+  </div>
+  <div *ngFor="let player of stateService.playersToPlay; let i = index">
+    <div
+      class="player-{{ i }}-wrapper"
+      [ngStyle]="{ background: pickBackground(player) }"
+    >
+      <app-player
+        [name]="player.name"
+        [money]="player.player_money"
+        [isBB]="player.is_bb"
+        [isSB]="player.is_sb"
+        [playerHand]="player.player_hand"
+        [playerFold]="player.has_folded"
+        [playerQuit]="player.has_quit"
+      ></app-player>
+    </div>
+  </div>
+  <app-actions class="actions"></app-actions>
+  <app-cards></app-cards>
+  <app-your-cards></app-your-cards>
+  <button class="btn btn-danger btn-exit" (click)="exitGame()">Leave Game  <fa-icon [icon]="exitIcon"></fa-icon></button>
+  <h2 class="player-action text-light">{{ stateService.playerAction }}</h2>
+  <h2 class="game-pot text-light">Pot: $ {{ stateService.pot }}</h2>
+</div>
+<!--
+<ng-template #editModal let-modal>
+  content in here
+</ng-template> -->

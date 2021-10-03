@@ -1,0 +1,22 @@
+<div style="background: rgba(80, 76, 76, 0.911);padding: 10px;">
+  <div class="row">
+    <div class="col-3">
+    <div *ngIf="stateService.callOrCheck" class="btn btn-primary" (click)="callOrCheck()">Check</div>
+    <div *ngIf="!stateService.callOrCheck" class="btn btn-primary" (click)="callOrCheck()">Call - ${{stateService.amountToCall}}</div>
+    </div>
+    <div class="col-3">
+      <div class="btn btn-danger" (click)="fold()">Fold</div>
+    </div>
+    <div class="col-3">
+      <button [disabled]="!betAmount.valid" class="btn btn-warning" (click)="raise()">Raise</button>
+    </div>
+    <div class="col-3">
+      <button class="btn btn-success" (click)="allIn()">All In</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="col-12 text-center mt-1"><input class="form-control" [formControl]="betAmount" style="margin: auto;" /></div>
+    </div>
+  </div>
+</div>

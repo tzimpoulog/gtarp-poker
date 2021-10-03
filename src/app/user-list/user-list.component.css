@@ -1,0 +1,46 @@
+.button-buyin {
+  background: #F6CC27;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.button-buyin:focus, .button-buyin:hover {
+  background: #fff;
+  border: 1px solid #F6CC27;
+  color: #F6CC27;
+}
+
+.button-buyin:disabled {
+  background: #806c20;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background: transparent !important;
+}
+
+.container-position {
+  width: 700px;
+  height: 320px;
+  margin: 50px auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  border-radius: 10px;
+  background: url('/assets/images/bg-poker1.png') no-repeat center center;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+

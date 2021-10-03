@@ -1,0 +1,19 @@
+<div class="container-position">
+  <div class="row">
+    <div class="col-12 text-center mt-5">
+      <h4 class="text-light">Lets start with your Buy In</h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 text-center mt-5"><input class="form-control" [formControl]="startBet" style="width: 320px; margin: auto;" /></div>
+  </div>
+  <div class="row mt-4">
+    <div class="col-6">
+      <button class="btn button-buyin float-right" (click)="sendBuyIn()" [disabled]="!startBet.valid">Sit in table</button>
+    </div>
+    <div class="col-6">
+      <button (click)="quitView()" class="btn btn-danger">Cancel</button>
+    </div>
+  </div>
+</div>
+
