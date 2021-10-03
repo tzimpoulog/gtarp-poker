@@ -23,3 +23,5 @@ Video
 - Developer support before and after purchase, changes can be made free of charge for up to 14 days after purchase
 - No encryptions, no IP locking
 - Tested by a dedicated beta testing team & a live server with ~400 online players
+
+Find the full script here: https://tritons-store.tebex.io/package/4521014
